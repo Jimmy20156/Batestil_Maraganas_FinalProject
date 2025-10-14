@@ -35,7 +35,9 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card>
               <CardHeader>
-                <DollarSign className="h-10 w-10 text-primary mb-2" />
+<span className="h-10 w-10 flex items-center justify-center text-primary mb-2 text-2xl">
+  ₱
+</span>             
                 <CardTitle>Cost Effective</CardTitle>
               </CardHeader>
               <CardContent>
